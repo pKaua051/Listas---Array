@@ -1,0 +1,14 @@
+var listaFilmes = ["Velozes e Furiosos", "A chegada", "Minha mãe é uma peça"];
+// Elementos                1                 2                3
+// Indice                   0                 1                2
+
+//adicionando elemento a lista
+listaFilmes.push("Harry Potter", "Harry Potter 2");
+
+//estrututa de repetição
+for (var indice = 0; indice < listaFilmes.length; indice++) {
+ document.write("<p>" + listaFilmes[indice] + "</p>");
+}
+
+// ".length" é usado para dizer o tamanho da lista
+//"document.write("<p>" + listaFilmes[indice] + "</p>");" usado para print na tela sem puxar do html
